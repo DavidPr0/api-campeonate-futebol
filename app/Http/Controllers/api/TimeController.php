@@ -21,7 +21,7 @@ class TimeController extends Controller
 
     public function store(createTime $request)
     {
-        Time::create($request->all());
+        return Time::create($request->all());
     }
 
     public function show($id)

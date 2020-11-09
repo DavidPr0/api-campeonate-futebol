@@ -22,7 +22,7 @@ class JogadorController extends Controller
     public function store(createJogador $request)
     {
 
-        Jogador::create($request->all());
+        return Jogador::create($request->all());
     }
 
     public function show($id)

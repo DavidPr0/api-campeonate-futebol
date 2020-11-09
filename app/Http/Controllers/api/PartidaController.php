@@ -21,7 +21,7 @@ class PartidaController extends Controller
 
     public function store(createPartida $request)
     {
-        Partida::create($request->all());
+        return Partida::create($request->all());
     }
 
     public function show($id)
