@@ -12,7 +12,7 @@
 
     ```bash
         1 Navegar até a pasta laradock dentro do projeto
-        2 Clonar o repositório **[https://github.com/laradock/laradock]
+        2 Clonar o repositório https://github.com/laradock/laradock
         3 Duplicar o arquivo env-exemple dentro da pasta laradock renomea-lo para .env
         4 Fazer todas configurações NGINX, MYSQL, PHPMYADMIN dentro do arquivo .env
         5 OBS: lembrar de usar portas que não estejam sendo usada no seu ambiente
